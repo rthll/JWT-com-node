@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    height: 10vh;
+}
+
+.titulo{
+    font-family:"Raleway", sans-serif;
+    color: #81c408 !important;
+    font-weight: bolder;
+    font-size: 30pt;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu > li{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.menu > li > a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    color: #00000080;
+    font-size: 14pt;
+
+}
+
+.menu > li > a:hover{
+    color: #81c408;
+  
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.material-symbols-outlined{
+    margin: 5px;
+    color: #81c408;
+    cursor: pointer;
+}
+.material-symbols-outlined:hover{
+    color: #6ea10e;
+    cursor: pointer;
+}
+
+.divForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(imgs/background.avif);
+}
+
+.loginAreaText {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.loginTextDecoration {
+    color: #81c408;
+}
+
+form {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="password2"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+button {
+    padding: 10px;
+    background-color: #81c408;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+.alert {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: #81c408;
+}
+
+a:hover {
+    color: #6ea10e;
+    cursor: pointer;
+}
